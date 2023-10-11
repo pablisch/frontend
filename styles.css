@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(229, 243, 255);
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px; 
+  font-size: 16px;
+  background-color: #3498db; 
+  color: #fff; 
+  border: 1px solid #0b5f97; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 30px;
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #2980b9; /* Change the background color when hovered */
+}
